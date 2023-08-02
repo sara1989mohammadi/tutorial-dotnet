@@ -17,8 +17,12 @@ C# supports concepts of classes and objects. Classes have members such as fields
 While classes are concepts, objects are real. Objects are created using class instances. A class defines the type of an object. Objects store real values in computer memory.
 Any real-world entity with certain characteristics or that can perform some work is called an Object. This object is also called an instance, i.e., a copy of an entity in a programming language. Objects are instances of classes.
 
+**Q #4) What is a class in C#?**
 
-**Q #4) What are the fundamental OOP concepts?**
+**Answer:** In C#, a class is a user-defined blueprint from which objects are created. It brings various types of data together to form a single unit. 
+
+
+**Q #5) What are the fundamental OOP concepts?**
 
 **Answer:** The four fundamental concepts of Object-Oriented Programming are:
 
@@ -29,5 +33,20 @@ Any real-world entity with certain characteristics or that can perform some work
 **Inheritance:** It is the ability to create new classes from another class. It is done by accessing, modifying, and extending the behavior of objects in the parent class.
 
 **Polymorphism:** The name means one name, many forms. It is achieved by having multiple methods with the same name but different implementations.
+
+
+**Q #6) What are Properties in C#?**
+
+**Answer:** Properties are the special type of class members that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors. This enables data to be accessed easily and helps to promote the flexibility and safety of methods. Encapsulation and hiding of information can also be achieved using properties. It uses pre-defined methods which are “get” and “set” methods which help to access and modify the properties.
+
+**Accessors:** The block of “set” and “get” is known as “Accessors”. It is very essential to restrict the accessibility of the property. There are two types of accessors i.e. get accessors and set accessors. There are different types of properties based on the “get” and set accessors:
+
+ Read and Write Properties: When the property contains both get and set methods.
+ 
+ Read-Only Properties: When the property contains only the get method.
+ 
+ Write Only Properties: When the property contains only a set method.
+ 
+ Auto-Implemented Properties: When there is no additional logic in the property accessors, it introduces in C# 3.0. 
 
 
