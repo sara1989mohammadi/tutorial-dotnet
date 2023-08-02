@@ -49,4 +49,25 @@ Any real-world entity with certain characteristics or that can perform some work
  
  Auto-Implemented Properties: When there is no additional logic in the property accessors, it introduces in C# 3.0. 
 
+**Q #7) Explain Namespaces in C#.**
 
+**Answer:** They are used to organize large code projects. “System” is the most widely used namespace in C#. We can create our own namespace and can also use one namespace in another, which is called Nested Namespaces.
+
+They are denoted by the keyword “namespace”.
+
+**Q #8) Explain Polymorphism?**
+
+**Answer:** Programmatically, Polymorphism means the same method but different implementations. It is of 2 types, Compile-time and Runtime.
+
+Compile-time polymorphism is achieved by operator overloading.
+Runtime polymorphism is achieved by overriding. Inheritance and Virtual functions are used during Runtime polymorphism.
+
+**Q #9) What is the difference between “continue” and “break” statements in C#?**
+
+**Answer:** Using a break statement, you can 'jump out of a loop,' whereas using a continue statement, you can 'jump over one iteration' and resume your loop execution.
+
+**Q #10) What is the difference between constant and read-only in C#?**
+
+**Answer:** Const is nothing but "constant," a variable whose value is constant but at compile time. Therefore, it's mandatory to assign a value to it. By default, a const is static, and we cannot change the value of a const variable throughout the entire program.
+
+Readonly is the keyword whose value we can change during runtime or assign it at run time but only through the non-static constructor.
