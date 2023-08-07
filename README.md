@@ -80,20 +80,31 @@ Readonly is the keyword whose value we can change during runtime or assign it at
 
 
 The struct is a value type in C# and inherits from System.Value Type.
+
 Struct is usually used for smaller amounts of data.
+
 Struct can’t be inherited from other types.
+
 A structure can't be abstract.
+
 No need to create an object with a new keyword.
+
 Do not have permission to create any default constructor.
+
 
 **Class**
 
 
 The class is a reference type in C#, and it inherits from the System.Object Type.
+
 Classes are usually used for large amounts of data.
+
 Classes can be inherited from other classes.
+
 A class can be an abstract type.
+
 We can create a default constructor.
+
 
 //////////////////////////////////////////////////
  C#
