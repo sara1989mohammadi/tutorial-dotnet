@@ -247,7 +247,7 @@ The out is a keyword in C# that is used for passing the arguments to methods as 
 
 C# does not support multiple-class inheritance. 
 
-**Q #23)What are the advantages of generics in C#?** 
+**Q #24)What are the advantages of generics in C#?** 
 
 **Answer:** In C#, generics allow the developer to define classes and methods which can be used with any data type. This brings several benefits:
 
@@ -258,6 +258,36 @@ Provides type safety without unnecessary overhead
 Removes the need for boxing and unboxing
 
 Generic collection types generally perform better with value types because there is no need to box the values
+
+
+**Q #25)What are generics in C#.NET?** 
+
+**Answer:** Generics are used to make reusable code classes to decrease code redundancy, and increase type safety and performance. Using generics, we can create a collection of classes. To create a generic collection, System.Collections.A generic namespace should be used.
+
+
+**Q #26) What is Hashtable in C#?** 
+
+**Answer:** A Hashtable is a collection of key-value pairs. It contains values based on the key.
+
+**Q #27)What is the purpose of async/await keywords?** 
+
+**Answer:** These keywords allow writing asynchronous non-blocking code in a synchronous fashion.
+This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T> structs. These types represent an abstraction around an operation that may execute asynchronously.
+
+**Q #28)What are partial classes in C#?** 
+
+**Answer:** A partial class is a special feature of C#. It provides a special ability to implement the functionality of a single class into multiple files and all these files are combined into a single class file when the application is compiled. A partial class is created by using a partial keyword. This keyword is also useful to split the functionality of methods, interfaces, or structures into multiple files.
+
+**Q #28)What are the different types of classes in C#?** 
+
+**Answer:**
+**Abstract classes:** These provide a common definition for a base class that other classes can be derived from
+
+**Static classes:** These contain static items that can only interact with other static items
+
+**Partial classes:** These are portions of a class that a compiler can combine to form a complete class
+
+**Sealed classes:** These cannot be inherited by any class but can be instantiated
 
 
 //////////////////////////////////////////////////
@@ -354,21 +384,7 @@ Polymorphism is the ability of a type to take on many forms using a single inter
 Abstraction is the concealment of unnecessary program details so that the user only sees the essential attributes
 Inheritance is the process where one class derives (or inherits) its attributes and methods from another
  
-What are the different types of classes in C#?
-Abstract classes: These provide a common definition for a base class that other classes can be derived from
-Static classes: These contain static items that can only interact with other static items
-Partial classes: These are portions of a class that a compiler can combine to form a complete class
-Sealed classes: These cannot be inherited by any class but can be instantiated
- 17. What are partial classes in C#?
-A partial class is a special feature of C#. It provides a special ability to implement the functionality of a single class into multiple files and all these files are combined into a single class file when the application is compiled. A partial class is created by using a partial keyword. This keyword is also useful to split the functionality of methods, interfaces, or structure into multiple files.
 
-
-
-
-
- 
-
- 
 
 
  
@@ -386,23 +402,12 @@ In C#, exception handling helps detect errors in code at runtime. The process is
 
 
 
-What are generics in C#.NET?
-Generics are used to make reusable code classes to decrease the code redundancy, increase type safety and performance. Using generics, we can create a collection of classes. To create a generic collection, System.Collections.Generic namespace should be used.
-What is Hashtable in C#?
-A Hashtable is a collection of key-value pairs. It contains values based on the key.
-What is the purpose of async/await keywords?
-These keywords allow writing asynchronous non-blocking code in a synchronous fashion.
-This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T> structs. These types represent an abstraction around an operation that may execute asynchronously.
 
 
 
 
 
-12. What is the difference between a struct and a class in C#? 
-A class is a user-defined blueprint or prototype from which objects are created. Basically, a class combines the fields and methods(member function which defines actions) into a single unit.
-A structure is a collection of variables of different data types under a single unit. It is almost similar to a class because both are user-defined data types and both hold a bunch of different data types. 
-13. What is enum in C#? 
-Enumeration (or enum) is a value data type in C#. It is mainly used to assign the names or string values to integral constants, which make a program easy to read and maintain. For example, the 4 suits in a deck of playing cards may be 4 enumerators named Club, Diamond, Heart, and Spade, belonging to an enumerated type named Suit. Other examples include natural enumerated types (like the planets, days of the week, colors, directions, etc.). The main objective of enum is to define our own data types(Enumerated Data Types). Enumeration is declared using the enum keyword directly inside a namespace, class, or structure. 
+
 
  
 
