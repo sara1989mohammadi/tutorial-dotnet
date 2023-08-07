@@ -124,7 +124,7 @@ An abstract class can’t be used for multiple inheritance, while the interface 
 
 An abstract class uses a constructor, while we don’t have any constructor in an interface.
 
-**Q #12) What is an enum in C#?**  
+**Q #13) What is an enum in C#?**  
 
 **Answer:** An enum is a value type with a set of related named constants, often called an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type that is user-defined.
 
@@ -139,7 +139,8 @@ The underlying default type of the enumeration element is int. By default, the f
 
 
 **for example:** enum Dow {Sat, Sun, Mon, Tue, Wed, Thu, Fri};
-C#
+
+
 Some points about enum,
 
 
