@@ -162,44 +162,158 @@ Enums are value types created on the stack, not the heap.
 
 
 
-**Q #14) What is the difference between constant and read-only in C#?** 
+**Q #14) Describe Accessibility Modifiers in C#?**
+
+**Answer:** Access Modifiers are keywords that define the accessibility of a member, class, or datatype in a program. These are mainly used to restrict unwanted data manipulation by external programs or classes. There are 4 access modifiers (public, protected, internal, private) which define the 6 accessibility levels as follows:
+
+public
+
+private
+
+private protected
+
+protected
+
+internal
+
+protected internal
+
+**Q #15) What are Access Modifiers in C#?**
+
+**Answer:** Access Modifiers are basically used to control the accessibility of types and members within the types. In C# there are 5 different types of Access Modifiers.
+
+**1. Public:** Public is the most common access specifier in C#. It can be accessed from anywhere, which means there is no restriction on accessibility. It is accessible to all classes & projects.
+
+**2. Private:** The range of accessibility is limited only within the classes or struct in which they are declared.
+
+**3. Protected:** All members in the current class & in derived classes can access the variables.
+
+**4. Internal:** The type or member can be accessed by any code in the same assembly, but not from another assembly.
+
+**5. Protected Internal:** The protected internal access specifier allows a class to hide its member functions & member variables from other class objects and functions, except a child class within the same application. This is also used while implementing inheritance.
+
+**Q #16)Explain is an interface class?**
+**Answer:** Interface class is an abstract class that has only public abstract methods & the methods only have the declaration and not the definition. These abstract methods must be implemented in the inherited classes.
+
+**Q #17)Explain Abstract class?**
+**Answer:** We create an abstract class when we define a template that needs to be followed by all the derived classes. Abstract class can have an implementation which should be implemented in the child class.
 
 
-**Answer:** Const is nothing but "constant," a variable whose value is constant but at compile time. Therefore, it's mandatory to assign a value to it. By default, a const is static, and we cannot change the value of a const variable throughout the entire program.
-
-
-Readonly is the keyword whose value we can change during runtime or assign it at run time but only through the non-static constructor.
-
-
-**Q #15) What is an extension method in C#?** 
+**Q #18) What is an extension method in C#?** 
 
 **Answer:** In C#, an extension method is a static method used to extend the functionality of an existing type without modifying the original type or creating a new derived type. Extension methods allow developers to add methods to existing types, such as classes, structs, interfaces, enums, etc., not originally defined in those types.
 
 Extension methods are declared in a static class and are defined as static methods with a special first parameter called the "this" parameter. The "this" parameter specifies the type being extended and allows the extension method to be called as if it were an instance method of that type.
 
 
-**Q #16) What is a Virtual Method in C#?** 
+**Q #19) What is a Virtual Method in C#?** 
 
 **Answer:** In C# virtual method is a strategy that can be reclassified into derived classes. We can implement the virtual method in the base class and derived class. It is utilized when a method’s fundamental work is similar but in some cases derived class needed additional functionalities. A virtual method is declared in the parent class that can be overridden in the child class. We make a virtual method in the base class by using the virtual keyword and that method is overridden in the derived class using the Override keyword.  It is not necessary for every derived class to inherit a virtual method, but a virtual method must be created in the base class. Hence the virtual method is also known as Polymorphism.
 
+
+**Q #20) What are the different ways in which a method can be Overloaded in C#?** 
+
+**Answer:** Method Overloading is the common way of implementing polymorphism. It is the ability to redefine a function in more than one form. A user can implement function overloading by defining two or more functions in a class sharing the same name. C# can distinguish the methods with different method signatures. i.e. the methods can have the same name but with different parameters list (i.e. the number of the parameters, order of the parameters, and data types of the parameters) within the same class.
+Overloaded methods are differentiated based on the number and type of the parameters passed as arguments to the methods.
+You can not define more than one method with the same name, Order, and type of arguments. It would be a compiler error.
+The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return types. It will throw a compile-time error. If both methods have the same parameter types, but different return types, then it is not possible.
+
+
+**Q #21) What is the difference between ref and out keywords in C#?** 
+
+**Answer:** The <ref> and <out> keywords are similar in that they are both used to pass arguments in a reference or function. However, there is a subtle difference:
+With <ref> keywords, the value is already set, meaning the method can read and modify it
+
+With <out> keywords, the value isn’t set and can’t be read by the method until it is set, meaning the method must set it before it can be returned
+
+ **Q #22) What is the difference between ref and out keywords?** 
+**Answer:** The ref is a keyword in C# that is used for passing the arguments by a reference. Or we can say that any changes made in this argument in the method will reflect in that variable when the control return to the calling method. The ref parameter does not pass the property.
+
+The out is a keyword in C# that is used for passing the arguments to methods as a reference type. It is generally used when a method returns multiple values. The out parameter does not pass the property. 
+
+**Q #22)When is method overriding used in C#?** 
+
+**Answer:** In C#, method overriding is used to invoke functions that belong to different classes. This process creates a method in the derived class with the same signature as a method in the base class without modifying the code of the base class. This helps achieve runtime polymorphism
+
+**Q #23) What is inheritance? Does C# support multiple inheritance?** 
+
+**Answer:** Inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in C# by which one class is allowed to inherit the features(fields and methods) of another class.
+
+**Super Class:** The class whose features are inherited is known as a superclass(or a base class or a parent class).
+
+**Sub Class:** The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+
+**Reusability:** Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+C# does not support multiple-class inheritance. 
+
+**Q #23)What are the advantages of generics in C#?** 
+
+**Answer:** In C#, generics allow the developer to define classes and methods which can be used with any data type. This brings several benefits:
+
+Saves time by reusing code
+
+Provides type safety without unnecessary overhead
+
+Removes the need for boxing and unboxing
+
+Generic collection types generally perform better with value types because there is no need to box the values
+
+
 //////////////////////////////////////////////////
  C#
+ 
 Sdk
+
 Clr
+
 Bcl
+
 .net compiler platform
-.net framwork
+
+.net framework
+
 .net core
+
 .net
+
 .net standard 
+
 Assembly
-Name space
+
+Namespace
+
 Nuget 
+
 .net call
+
 Constants
-Nulable types
+
+Nullable types
+
 Data type
-Floot , boolean , char, object, string,If, else, switsch case ,loops , name space, comments Class,fields,properties,methods,cunstructors,local func
+
+Floot, 
+
+boolean, 
+
+char, 
+
+object, 
+string,
+
+If,
+
+else,
+
+switsch case
+
+,loops ,
+
+name space
+
+
+comments Class,fields,properties,methods,cunstructors,local func
 Extention method Annonymos type
 Records Structs Enum Ref , in ,out Tuples Partial types Inheritant Virtual method Abstract
 Sealds
@@ -249,34 +363,14 @@ Sealed classes: These cannot be inherited by any class but can be instantiated
 A partial class is a special feature of C#. It provides a special ability to implement the functionality of a single class into multiple files and all these files are combined into a single class file when the application is compiled. A partial class is created by using a partial keyword. This keyword is also useful to split the functionality of methods, interfaces, or structure into multiple files.
 
 
-What is the difference between ref and out keywords in C#?
-Sample answer:
-The <ref> and <out> keywords are similar in that they are both used to pass arguments in a reference or function. However, there is a subtle difference:
-With <ref> keywords, the value is already set, meaning the method can read and modify it
-With <out> keywords, the value isn’t set and can’t be read by the method until it is set, meaning the method must set it before it can be returned
- 14. What is the difference between ref and out keywords?
-The ref is a keyword in C# which is used for passing the arguments by a reference. Or we can say that if any changes made in this argument in the method will reflect in that variable when the control return to the calling method. The ref parameter does not pass the property.
-The out is a keyword in C# which is used for passing the arguments to methods as a reference type. It is generally used when a method returns multiple values. The out parameter does not pass the property. 
+
 
 
  
-What are the advantages of generics in C#?
-Sample answer:
-In C#, generics allow the developer to define classes and methods which can be used with any data type. This brings several benefits:
-Saves time by reusing code
-Provides type safety without unnecessary overhead
-Removes the need for boxing and unboxing
-Generic collection types generally perform better with value types because there is no need to box the values
+
  
-When is method overriding used in C#?
-Sample answer:
-In C#, method overriding is used to invoke functions that belong to different classes. This process creates a method in the derived class with the same signature as a method in the base class without modifying the code of the base class. This helps achieve runtime polymorphism
-What is the difference between Const and ReadOnly keywords in C#?
-Sample answer:
-There are several differences between Const and ReadOnly keywords in C#. These include:
-ReadOnly is a constant used at runtime, whereas Const is a constant used at compile-time
-ReadOnly values can be changed, whereas Const values cannot be changed
-ReadOnly cannot be declared inside the method, whereas Const can
+
+
  
 What is meant by dependency injection in C#?
 Sample answer:
@@ -288,27 +382,9 @@ In C#, exception handling helps detect errors in code at runtime. The process is
 2.	<Catch> catches the exceptions that have been identified by <Try>
 3.	<Finally> executes a given set of statements depending on whether an exception is thrown out or not
 4.	<Throw> removes the exception
-32. Describe Accessibility Modifiers in C#?
-Access Modifiers are keywords that define the accessibility of a member, class, or datatype in a program. These are mainly used to restrict unwanted data manipulation by external programs or classes. There are 4 access modifiers (public, protected, internal, private) which defines the 6 accessibility levels as follows:
-public
-private
-private protected
-protected
-internal
-protected internal
 
 
-What are Access Modifiers in C#?
-Access Modifiers are basically used to control the accessibility of types and members with in the types. In C# there are 5 different types of Access Modifiers.
-1. Public: Public is the most common access specifier in C#. It can be accessed from anywhere, that means there is no restriction on accessibility. It is accessible to all classes & projects.
-2. Private: The range of the accessibility is limited only within the classes or struct in which they are declared.
-3. Protected: All members in the current class & in derived classes can access the variables.
-4. Internal: The type or member can be accessed by any code in the same assembly, but not from another assembly.
-5. Protected Internal: The protected internal access specifier allows a class to hide its member functions & member variables from other class objects and functions, except a child class within the same application. This is also used while implementing inheritance.
-Explain is an interface class?
-Interface class is an abstract class that has only public abstract methods & the methods only have the declaration and not the definition. These abstract methods must be implemented in the inherited classes.
-Explain Abstract class?
-We create an abstract class when we define a template that needs to be followed by all the derived classes. Abstract class can have an implementation which should be implemented in the child class.
+
 
 What are generics in C#.NET?
 Generics are used to make reusable code classes to decrease the code redundancy, increase type safety and performance. Using generics, we can create a collection of classes. To create a generic collection, System.Collections.Generic namespace should be used.
@@ -319,14 +395,7 @@ These keywords allow writing asynchronous non-blocking code in a synchronous fas
 This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T> structs. These types represent an abstraction around an operation that may execute asynchronously.
 
 
-9. What are extension methods in C#?
-In C#, the extension method concept allows you to add new methods in the existing class or in the structure without modifying the source code of the original type, and you do not require any kind of special permission from the original type and there is no need to re-compile the original type. It is introduced in C# 3.0. 
-10. What is inheritance? Does C# support multiple inheritance?
-Inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in C# by which one class is allowed to inherit the features(fields and methods) of another class.
-Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).
-Sub Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
-Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
-C# does not support multiple class inheritance. 
+
 
 
 12. What is the difference between a struct and a class in C#? 
@@ -334,11 +403,6 @@ A class is a user-defined blueprint or prototype from which objects are created.
 A structure is a collection of variables of different data types under a single unit. It is almost similar to a class because both are user-defined data types and both hold a bunch of different data types. 
 13. What is enum in C#? 
 Enumeration (or enum) is a value data type in C#. It is mainly used to assign the names or string values to integral constants, which make a program easy to read and maintain. For example, the 4 suits in a deck of playing cards may be 4 enumerators named Club, Diamond, Heart, and Spade, belonging to an enumerated type named Suit. Other examples include natural enumerated types (like the planets, days of the week, colors, directions, etc.). The main objective of enum is to define our own data types(Enumerated Data Types). Enumeration is declared using the enum keyword directly inside a namespace, class, or structure. 
-19. What are the different ways in which a method can be Overloaded in C#?
-Method Overloading is the common way of implementing polymorphism. It is the ability to redefine a function in more than one form. A user can implement function overloading by defining two or more functions in a class sharing the same name. C# can distinguish the methods with different method signatures. i.e. the methods can have the same name but with different parameters list (i.e. the number of the parameters, order of the parameters, and data types of the parameters) within the same class.
-Overloaded methods are differentiated based on the number and type of the parameters passed as arguments to the methods.
-You can not define more than one method with the same name, Order, and type of the arguments. It would be a compiler error.
-The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return types. It will throw a compile-time error. If both methods have the same parameter types, but different return types, then it is not possible.
 
  
 
