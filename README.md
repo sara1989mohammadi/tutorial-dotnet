@@ -73,7 +73,8 @@ Runtime polymorphism is achieved by overriding. Inheritance and Virtual function
 Readonly is the keyword whose value we can change during runtime or assign it at run time but only through the non-static constructor.
 
 
-**Q #10) What is the difference between a struct and a class in C#?** 
+**Q #11) What is the difference between a struct and a class in C#?** 
+
 **Answer:** **Class** and **struct** are both user-defined data types but have some major differences:
 
 **Struct**
