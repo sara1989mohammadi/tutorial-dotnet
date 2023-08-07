@@ -162,6 +162,13 @@ Enums are value types created on the stack, not the heap.
 
 
 
+**Q #14) What is the difference between constant and read-only in C#?** 
+
+
+**Answer:** Const is nothing but "constant," a variable whose value is constant but at compile time. Therefore, it's mandatory to assign a value to it. By default, a const is static, and we cannot change the value of a const variable throughout the entire program.
+
+
+Readonly is the keyword whose value we can change during runtime or assign it at run time but only through the non-static constructor.
 
 
 //////////////////////////////////////////////////
