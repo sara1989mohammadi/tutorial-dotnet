@@ -278,7 +278,7 @@ This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T
 
 **Answer:** A partial class is a special feature of C#. It provides a special ability to implement the functionality of a single class into multiple files and all these files are combined into a single class file when the application is compiled. A partial class is created by using a partial keyword. This keyword is also useful to split the functionality of methods, interfaces, or structures into multiple files.
 
-**Q #28)What are the different types of classes in C#?** 
+**Q #29)What are the different types of classes in C#?** 
 
 **Answer:**
 **Abstract classes:** These provide a common definition for a base class that other classes can be derived from
