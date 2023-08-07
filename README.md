@@ -106,6 +106,23 @@ A class can be an abstract type.
 
 We can create a default constructor.
 
+**Q #12) What is the difference between Interface and Abstract Class in C#?**  
+
+**Answer:** Here are some common differences between an interface and an abstract class in C#.
+
+A class can implement any number of interfaces, but a subclass can, at most, use only one abstract class.
+
+An abstract class can have non-abstract methods (concrete methods), while in the case of interface, all the methods have to be abstract.
+
+An abstract class can declare or use any variables, while an interface cannot do so.
+
+In an abstract class, all data members or functions are private by default, while in an interface, all are public; we can’t change them manually.
+
+In an abstract class, we need to use abstract keywords to declare abstract methods; in an interface, we don’t need that.
+
+An abstract class can’t be used for multiple inheritance, while the interface can be used for multiple inheritance.
+
+An abstract class uses a constructor, while we don’t have any constructor in an interface.
 
 //////////////////////////////////////////////////
  C#
