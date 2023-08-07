@@ -124,6 +124,45 @@ An abstract class can’t be used for multiple inheritance, while the interface 
 
 An abstract class uses a constructor, while we don’t have any constructor in an interface.
 
+**Q #12) What is an enum in C#?**  
+
+**Answer:** An enum is a value type with a set of related named constants, often called an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type that is user-defined.
+
+
+An enum type can be an integer (float, int, byte, double, etc.). But if you use it beside int, it has to be cast.
+
+
+An enum is used to create numeric constants in the .NET framework. All the members of the enum are enum type. Therefore, there must be a numeric value for each enum type.
+
+
+The underlying default type of the enumeration element is int. By default, the first enumerator has the value 0, and the value of each successive enumerator is increased by 1. 
+
+
+**for example:** enum Dow {Sat, Sun, Mon, Tue, Wed, Thu, Fri};
+C#
+Some points about enum,
+
+
+Enums are enumerated data types in c#.
+
+Enums are not for the end-user. They are meant for developers.
+
+Enums are strongly typed constant. They are strongly typed, i.e., an enum of one type may not be implicitly assigned to an enum of another type even though the underlying value of their members is the same.
+
+Enumerations (enums) make your code much more readable and understandable.
+
+Enum values are fixed. Enum can be displayed as a string and processed as an integer.
+
+The default type is int, and the approved types are byte, sbyte, short, ushort, uint, long, and ulong.
+
+Every enum type automatically derives from System.Enum, and thus, we can use System.Enum methods on enums.
+
+Enums are value types created on the stack, not the heap.
+
+
+
+
+
 //////////////////////////////////////////////////
  C#
 Sdk
