@@ -1,4 +1,39 @@
 # tutorial-dotnet
+# tutorial-dotnet
+**Q #1) What is C#?**
+**Q #2) What is the latest version of C#?**
+**Q #3) What is an object in C#?**
+**Q #4) What is a class in C#?**
+**Q #5) What are the fundamental OOP concepts?**
+**Q #6) What are Properties in C#?**
+**Q #7) Explain Namespaces in C#.**
+**Q #8) Explain Polymorphism?**
+**Q #9) What is the difference between “continue” and “break” statements in C#?**
+**Q #10) What is the difference between constant and read-only in C#?**
+**Q #11) What is the difference between a struct and a class in C#?** 
+**Q #12) What is the difference between Interface and Abstract Class in C#?**  
+**Q #13) What is an enum in C#?**  
+**Q #14) Describe Accessibility Modifiers in C#?**
+**Q #15) What are Access Modifiers in C#?**
+**Q #16)Explain is an interface class?**
+**Q #17)Explain Abstract class?**
+**Q #18) What is an extension method in C#?** 
+**Q #19) What is a Virtual Method in C#?** 
+**Q #20) What are the different ways in which a method can be Overloaded in C#?** 
+**Q #21) What is the difference between ref and out keywords in C#?** 
+**Q #22) What is the difference between ref and out keywords?** 
+**Q #22)When is method overriding used in C#?** 
+**Q #23) What is inheritance? Does C# support multiple inheritance?**
+**Q #24)What are the advantages of generics in C#?** 
+**Q #25)What are generics in C#.NET?** 
+**Q #26) What is Hashtable in C#?** 
+**Q #27)What is the purpose of async/await keywords?** 
+**Q #28)What are partial classes in C#?** 
+**Q #29)What are the different types of classes in C#?** 
+
+
+
+
 **Q #1) What is C#?**
 
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
