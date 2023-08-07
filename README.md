@@ -178,6 +178,9 @@ Readonly is the keyword whose value we can change during runtime or assign it at
 Extension methods are declared in a static class and are defined as static methods with a special first parameter called the "this" parameter. The "this" parameter specifies the type being extended and allows the extension method to be called as if it were an instance method of that type.
 
 
+**Q #16) What is a Virtual Method in C#?** 
+
+**Answer:** In C# virtual method is a strategy that can be reclassified into derived classes. We can implement the virtual method in the base class and derived class. It is utilized when a method’s fundamental work is similar but in some cases derived class needed additional functionalities. A virtual method is declared in the parent class that can be overridden in the child class. We make a virtual method in the base class by using the virtual keyword and that method is overridden in the derived class using the Override keyword.  It is not necessary for every derived class to inherit a virtual method, but a virtual method must be created in the base class. Hence the virtual method is also known as Polymorphism.
 
 //////////////////////////////////////////////////
  C#
@@ -336,10 +339,9 @@ Method Overloading is the common way of implementing polymorphism. It is the abi
 Overloaded methods are differentiated based on the number and type of the parameters passed as arguments to the methods.
 You can not define more than one method with the same name, Order, and type of the arguments. It would be a compiler error.
 The compiler does not consider the return type while differentiating the overloaded method. But you cannot declare two methods with the same signature and different return types. It will throw a compile-time error. If both methods have the same parameter types, but different return types, then it is not possible.
-21. What is the difference between constant and read-only in C#?
-In C#, a const keyword is used to declare constant fields and constant local. The value of the constant field is the same throughout the program or in other words, once the constant field is assigned the value of this field is not be changed. In C#, constant fields and locals are not variables, a constant is a number, string, null reference, boolean values. readonly keyword is used to declare a readonly variable. This readonly keyword shows that you can assign the variable only when you declare a variable or in a constructor of the same class in which it is declared. 
-33. What is a Virtual Method in C#?
-In C# virtual method is a strategy that can be reclassified in derived classes. We can implement the virtual method in the base class and derived class. It is utilized when a method’s fundamental work is similar but in some cases derived class needed additional functionalities. A virtual method is declared in the parent class that can be overridden in the child class. We make a virtual method in the base class by using the virtual keyword and that method is overridden in the derived class using the Override keyword.  It is not necessary for every derived class to inherit a virtual method, but a virtual method must be created in the base class. Hence the virtual method is also known as Polymorphism.
+
+ 
+
 
 
 
