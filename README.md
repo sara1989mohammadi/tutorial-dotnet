@@ -106,6 +106,29 @@
 
 **Q #52) What is LINQ in C#?**
 
+**Q #53)Explain how LINQ is more useful than Stored Procedures?**
+
+**Q #54)Explain what the Where clause?**
+
+**Q #55)What do you mean by an Anonymous function?**
+
+**Q #56) What is the use of anonymous functions?**
+
+**Q #57) How is LINQ better than the stored procedures?**
+
+**Q #58)What are the advantages of using LINQ in Dataset?**
+
+**Q #59)What are the different ways to write LINQ query syntax?**
+
+**Q #60) What is the Query syntax?**
+
+**Q #61) Explain LINQ method syntax and give an example.**
+
+**Q #62)Define different types of LINQ.**
+
+**Q #63) Explain the LINQ Lambda expression with an example.**
+
+
 **Q #1) What is C#?**
 
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
@@ -554,4 +577,88 @@ In C#, Get and Set are termed accessors because they use properties. Such privat
 
 **Answer:**
 LINQ refers to Language Integrated Query. It provides .NET languages (like C#) the ability to generate queries to retrieve data from the data source.
+
+**Q #53)Explain how LINQ is more useful than Stored Procedures?**
+
+**Answer:**
+
+Debugging: It is difficult to debug a stored procedure but as LINQ is part of .NET, visual studios debugger can be used to debug the queries
+Deployment: For stored procedure, additional script should be provided but with LINQ everything gets compiled into single DLL hence deployment becomes easy
+Type Safety: LINQ is type safe, so queries errors are type checked at compile time
+
+
+**Q #54)Explain what the Where clause?**
+
+**Answer:**
+It permits the addition of some filters to the query. The where clause filters the collection according to the given condition and returns a new collection. It requests a Boolean constraint (predicate) to each source element (referenced by the range variable) and returns those for which the defined condition is true.
+
+**Q #55)What do you mean by an Anonymous function?**
+
+**Answer:**
+As the name suggests, the function with no name is called an anonymous function. Only parameters are defined for an Anonymous (unnamed) function, and code is written within the curly braces.
+
+**Q #56) What is the use of anonymous functions?**
+
+**Answer:**
+Anonymous functions are usually arguments passed to higher-order functions or used for composing the result of a higher-order function that needs to return a function. If the function is used once or a limited number of times, then an anonymous function can be comparatively syntactically lighter than a named function.
+
+**Q #57) How is LINQ better than the stored procedures?**
+
+**Answer:**
+Debugging Stored Procedures is tough, but it is relatively easier to debug LINQ's queries.
+LINQ is Type Safe. Thus, query errors are revised at the time of compilation.
+The deployment is managed by passing an extra script for stored procedures, but with LINQ, deployment is comparatively simple and easy.
+
+
+**Q #58)What are the advantages of using LINQ in Dataset?**
+
+**Answer:**
+The advantages of LINQ are as follows -
+
+The primary purpose of using LINQ is to retrieve complex queries in a dataset.
+LINQ is used to combine the values from two different data set.
+It is also used to fetch a unique value from the data set.
+LINQ gives a more precise way than SQL query of querying the dataset.
+LINQ also provides more functionality as compared with ADO.NET.
+
+**Q #59)What are the different ways to write LINQ query syntax?**
+
+**Answer:**
+There are two common ways to write a LINQ query to data sources.
+
+Query syntax or Expression syntax
+Method syntax or method Extension Syntax
+
+
+**Q #60) What is the Query syntax?**
+
+**Answer:**
+Query syntax is similar to Structured Query Language for the database. It is described within the C# or VB code.
+
+
+**Q #61) Explain LINQ method syntax and give an example.**
+
+**Answer:**
+The LINQ method syntax or fluent syntax uses some additional methods included in the Enumerable or Queryable static class.
+
+Method Syntax is the same as calling extension method.
+LINQ Method Syntax is also known as fluent syntax because it facilitates a series of extension methods call.
+Implicitly typed variables can be used to hold the result of the LINQ query
+
+
+**Q #62)Define different types of LINQ.**
+
+**Answer:**
+The different types of LINQ are as follows.
+
+LINQ to Objects
+LINQ to XML(XLINQ)
+LINQ to DataSet
+LINQ to SQL (DLINQ)
+LINQ to Entities
+
+**Q #63) Explain the LINQ Lambda expression with an example.**
+
+**Answer:**
+In LINQ, the Lambda expression is a function that has no name. It makes the syntax more comprehensive by making it short and precise. It is equally important as the LINQ query although it is not as readable as the LINQ query. The scope of Lambda expression is limited. It can't be reused.
 
