@@ -78,6 +78,34 @@
 
 **Q #38) What is the difference between Dispose() and Finalize()methods?**
 
+**Q #39) What are Custom Exceptions?**
+
+**Q #40) How do you inherit a class into another class in C#?**
+
+**Q #41)  How to use nullable types in .Net?**
+
+**Q #42)  What is the difference between “is” and “as” operators in c#?**
+
+**Q #43)  What are indexers in C# .NET?**
+
+**Q #44)  What is the distinction between "throw" and "throw ex" in.NET?**
+
+**Q #45)  What are namespaces in C#?**
+
+**Q #46)  Difference between SortedList and SortedDictionary in C#.**
+
+**Q #47)  What is tuple in C#?**
+
+**Q #48)  What are Events?**
+
+**Q #49)  What is a Virtual Method in C#?**
+
+**Q #50)  In C#, what is a Hash table class?**
+
+**Q #51)  What do you understand about Get and Set Accessor properties?**
+
+**Q #52) What is LINQ in C#?**
+
 **Q #1) What is C#?**
 
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
@@ -440,3 +468,90 @@ You can use the Using Sort() methods and then Reverse() method.
 
 **Answer:**
 Dispose() is used when an object is required to release any unmanaged resources in it. Finalize(), on the other hand, doesn’t assure the garbage collection of an object even though it is used for the same function.
+
+
+**Q #39) What are Custom Exceptions?**
+
+**Answer:**
+In some cases, errors have to be handled according to user requirements. Custom exceptions are used in such cases.
+
+
+**Q #40) How do you inherit a class into another class in C#?**
+
+**Answer:**
+In C#, colon can be used as an inheritance operator. You need to place a colon and follow it with the class name.
+
+**Q #41)  How to use nullable types in .Net?**
+
+**Answer:**
+When either normal values or a null value can be taken by value types, they are called nullable types.
+
+
+**Q #42)  What is the difference between “is” and “as” operators in c#?**
+
+**Answer:**
+An “is” operator can be used to check an object’s compatibility with respect to a given type, and the result is returned as a Boolean. An “as” operator can be used for casting an object to either a type or a class.
+
+
+**Q #43)  What are indexers in C# .NET?**
+
+**Answer:**
+In C#, indexers are called smart arrays. Indexers allow class instances to be indexed in the same way as arrays do.
+
+
+**Q #44)  What is the distinction between "throw" and "throw ex" in.NET?**
+
+**Answer:**
+“Throw” statement keeps the original error stack. But “throw ex” keeps the stack trace from their throw point.
+
+
+**Q #45)  What are namespaces in C#?**
+
+**Answer:**
+Namespaces allow you to keep one set of names that is different from others. A great advantage of namespace is that class names declared in one namespace don’t clash with those declared in another namespace.
+
+**Q #46)  Difference between SortedList and SortedDictionary in C#.**
+
+**Answer:**
+SortedList is a collection of value pairs sorted by their keys. SortedDictionary is a collection to store the value pairs in the sorted form, in which the sorting is done on the key.
+
+
+**Q #47)  What is tuple in C#?**
+
+**Answer:**
+Tuple is a data structure to represent a data set that has multiple values that could be related to each other. 
+
+
+**Q #48)  What are Events?**
+
+**Answer:**
+An event is a notice that something has occurred.
+
+**Q #38)  What is the Constructor Chaining in C#? **
+
+**Answer:**
+With Constructor Chaining, an overloaded constructor can be called from another constructor. The constructor must belong to the same class.
+
+
+**Q #49)  What is a Virtual Method in C#?**
+
+**Answer:**
+In the parent class, a virtual method is declared that can be overridden in the child class. We construct a virtual method in the base class using the virtual keyword, and that function is overridden in the derived class with the Override keyword.
+
+
+**Q #50)  In C#, what is a Hash table class?**
+
+**Answer:**
+The Hash table class represents a collection of key/value pairs that are organized based on the hash code of the key.
+
+
+**Q #51)  What do you understand about Get and Set Accessor properties?**
+
+**Answer:**
+In C#, Get and Set are termed accessors because they use properties. Such private fields are accessed via accessors.
+
+**Q #52) What is LINQ in C#?**
+
+**Answer:**
+LINQ refers to Language Integrated Query. It provides .NET languages (like C#) the ability to generate queries to retrieve data from the data source.
+
