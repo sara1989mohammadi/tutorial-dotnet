@@ -70,6 +70,14 @@
 
 **Q #34) What is the difference between ArrayList and Array?**
 
+**Q #35)What are the differences between System.String and System.Text.StringBuilder classes?**
+
+**Q #36) What’s the difference between the System.Array.CopyTo() and System.Array.Clone() ?**
+
+**Q #37) How can the Array elements be sorted in descending order?**
+
+**Q #38) What is the difference between Dispose() and Finalize()methods?**
+
 **Q #1) What is C#?**
 
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
@@ -413,99 +421,22 @@ Method overloading is the process of generating many methods in the same class w
 **Answer:**
 An array only has items of the same type and its size is fixed. ArrayList is similar but it does not have a fixed size.
 
-//////////////////////////////////////////////////
- C#
- 
-Sdk
+**Q #35)What are the differences between System.String and System.Text.StringBuilder classes?**
 
-Clr
+**Answer:**
+System.String is absolute. When a string variable’s value is modified, a new memory is assigned to the new value. The previous memory allocation gets released. System.StringBuilder, on the other hand, is designed so it can have a mutable string in which a plethora of operations can be performed without the need for allocation of a separate memory location for the string that has been modified.
 
-Bcl
+**Q #36) What’s the difference between the System.Array.CopyTo() and System.Array.Clone() ?**
 
-.net compiler platform
+**Answer:**
+In the Clone() method, a new array object is created, with all the original Array elements using the CopyTo() method. Essentially, all the elements present in the existing array get copied into another existing array.
 
-.net framework
+**Q #37) How can the Array elements be sorted in descending order?**
 
-.net core
+**Answer:**
+You can use the Using Sort() methods and then Reverse() method.
 
-.net
+**Q #38) What is the difference between Dispose() and Finalize()methods?**
 
-.net standard 
-
-Assembly
-
-Namespace
-
-Nuget 
-
-.net call
-
-Constants
-
-Nullable types
-
-Data type
-
-Floot, 
-
-boolean, 
-
-char, 
-
-object, 
-string,
-
-If,
-
-else,
-
-switch case
-
-,loops,
-
-namespace
-
-
-comments Class,fields,properties,methods,cunstructors,local func
-Extention method Anonymous type
-Records Structs Enum Ref , in ,out Tuples Partial types Inheritant Virtual method Abstract
-Sealds
-Constructors
-Modifiers
-Inheritance with record
-Interface
-Class with interface
-Default interface meth
-Generic 
-
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
- 
-
-
-
-
+**Answer:**
+Dispose() is used when an object is required to release any unmanaged resources in it. Finalize(), on the other hand, doesn’t assure the garbage collection of an object even though it is used for the same function.
