@@ -30,9 +30,9 @@
 
 **Q #15) What are Access Modifiers in C#?**
 
-**Q #16)Explain is an interface class?**
+**Q #16)Explain an interface class.**
 
-**Q #17)Explain Abstract class?**
+**Q #17)Explain Abstract class.**
 
 **Q #18) What is an extension method in C#?** 
 
@@ -64,9 +64,11 @@
 
 **Q #31)List the different types of comments in C#.**
 
+**Q #32) What are sealed classes in C#?**
 
+**Q #33) What is method overloading?**
 
-
+**Q #34) What is the difference between ArrayList and Array?**
 
 **Q #1) What is C#?**
 
@@ -363,7 +365,9 @@ This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T
 **Answer:** The Array which comprises elements of a type array is called Jagged Array. The elements in Jagged Arrays can be of various dimensions and sizes.
 
 **Q #31)List the different types of comments in C#.**
+
 **Answer:**
+
 The different types of comments in C# are:
 
 
@@ -393,6 +397,21 @@ Example -
 
 multiline comment */
 
+
+**Q #32) What are sealed classes in C#?**
+
+**Answer:**
+When a restriction needs to be placed on the class that needs to be inherited, sealed classes are created. In order to prevent any derivation from a class, a sealed modifier is used. A compile-time error occurs when a sealed class is forcefully specified as a base class.
+
+**Q #33) What is method overloading?**
+
+**Answer:**
+Method overloading is the process of generating many methods in the same class with the same name but distinct signatures. The compiler utilizes overload resolution to identify which method to invoke when we compile.
+
+**Q #34) What is the difference between ArrayList and Array?**
+
+**Answer:**
+An array only has items of the same type and its size is fixed. ArrayList is similar but it does not have a fixed size.
 
 //////////////////////////////////////////////////
  C#
