@@ -128,7 +128,8 @@
 
 **Q #63) Explain the LINQ Lambda expression with an example.**
 
-
+**Q #64)How would you count the elements in a list or collection?**
+============================================================================
 **Q #1) What is C#?**
 
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
@@ -661,4 +662,9 @@ LINQ to Entities
 
 **Answer:**
 In LINQ, the Lambda expression is a function that has no name. It makes the syntax more comprehensive by making it short and precise. It is equally important as the LINQ query although it is not as readable as the LINQ query. The scope of Lambda expression is limited. It can't be reused.
+
+**Q #64)How would you count the elements in a list or collection?**
+
+**Answer:**
+The Count() function is used to count the number of items in the list.
 
