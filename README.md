@@ -58,7 +58,11 @@
 
 **Q #28)What are partial classes in C#?** 
 
-**Q #29)What are the different types of classes in C#?** 
+**Q #29)What are the different types of classes in C#?**
+
+**Q #30)What are Jagged Arrays?**
+
+**Q #31)List the different types of comments in C#.**
 
 
 
@@ -354,6 +358,41 @@ This feature is facilitated by the Task/Task<T> classes or ValueTask/ValueTask<T
 
 **Sealed classes:** These cannot be inherited by any class but can be instantiated
 
+**Q #30)What are Jagged Arrays?**
+
+**Answer:** The Array which comprises elements of a type array is called Jagged Array. The elements in Jagged Arrays can be of various dimensions and sizes.
+
+**Q #31)List the different types of comments in C#.**
+**Answer:**
+The different types of comments in C# are:
+
+
+XML comments 
+
+Example -
+
+
+/// example of XML comment
+
+
+Single Line comments
+
+Example -
+
+
+// Example of a single-line comment
+
+
+Multi-line comments
+
+Example -
+
+
+/* example of an 
+
+
+multiline comment */
+
 
 //////////////////////////////////////////////////
  C#
@@ -401,68 +440,33 @@ If,
 
 else,
 
-switsch case
+switch case
 
-,loops ,
+,loops,
 
-name space
+namespace
 
 
 comments Class,fields,properties,methods,cunstructors,local func
-Extention method Annonymos type
+Extention method Anonymous type
 Records Structs Enum Ref , in ,out Tuples Partial types Inheritant Virtual method Abstract
 Sealds
 Constructors
 Modifiers
-Inheritanc with record
+Inheritance with record
 Interface
 Class with interface
 Default interface meth
 Generic 
-What is meant by object-oriented programming?
-Sample answer:Object-oriented programming (OOP) is an approach to programming where software is primarily designed by using objects (essentially data) that interact with each other. 
-When different pieces of data are put together, they come to form the software as a whole. OOP is an alternative to functional or procedural programming and it’s also the approach used by C#.
-What is an object in C#?
-Sample answer:
-An object is a real-world entity; in C# it’s a single class instance. For example, if you had a class of ‘dogs’, ‘labradors’, ‘bulldogs’, and ‘golden retrievers’ would all be objects. 
-6. What is a class in C#?
-Sample answer:
-In C#, a class is a user-defined blueprint from which objects are created. It brings various types of data together to form a single unit. 
-16. What are Properties in C#?
-Properties are the special type of class members that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors. This enables data to be accessed easily and helps to promote the flexibility and safety of methods. Encapsulation and hiding of information can also be achieved using properties. It uses pre-defined methods which are “get” and “set” methods which help to access and modify the properties.
-Accessors: The block of “set” and “get” is known as “Accessors”. It is very essential to restrict the accessibility of the property. There are two types of accessors i.e. get accessors and set accessors. There are different types of properties based on the “get” and set accessors:
-Read and Write Properties: When property contains both get and set methods.
-Read-Only Properties: When property contains only the get method.
-Write Only Properties: When property contains only set method.
-Auto Implemented Properties: When there is no additional logic in the property accessors, and it introduces in C# 3.0. 
 
 
-7. What is a method in C#?
-Sample answer:
-In C#, a method is a code block that contains a series of statements used to perform particular operations. Methods must be declared within a class or a structure. They help save time by reusing code. 
- 
-How would you explain the four fundamental concepts of object-oriented programming? 
-Sample answer:
-The four fundamental concepts of object-oriented programming can be explained as follows:
-Encapsulation is the bundling of data, including the methods that operate on that data, into a single, private unit
-Polymorphism is the ability of a type to take on many forms using a single interface
-Abstraction is the concealment of unnecessary program details so that the user only sees the essential attributes
-Inheritance is the process where one class derives (or inherits) its attributes and methods from another
+
  
 
 
 
  
-What is meant by dependency injection in C#?
-Sample answer:
-In C#, dependency injection (DI) is a design pattern used to develop loosely coupled code. This process moves the creation and binding of dependent objects outside of the class that depends on them. The main purpose of this is to make future changes to code more manageable. 
-How is exception handling performed in C#?
-Sample answer:
-In C#, exception handling helps detect errors in code at runtime. The process is implemented using four different keywords:
-1.	<Try> identifies blocks of code where exceptions are activated
-2.	<Catch> catches the exceptions that have been identified by <Try>
-3.	<Finally> executes a given set of statements depending on whether an exception is thrown out or not
-4.	<Throw> removes the exception
+
 
 
 
