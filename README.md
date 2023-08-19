@@ -138,6 +138,10 @@
 
 **Q #68)What is the difference between First() and FirstOrDefault() selector methods in LINQ?**
 
+**Q #69)What is garbage collection in C#?**
+
+**Q #70) What is a managed and unmanaged code?**
+
 ============================================================================
 **Q #1) What is C#?**
 
@@ -709,3 +713,32 @@ These Queries does need to be recompiled even if the parameter of the query is b
 
 **Answer:**
 The First() method always expects at least one element in the result set. If there isn't any element in the result, First() returns an exception. While FirstOrDefault() is compatible with a result set having 0 elements, it does not throw any exception.
+
+
+**Q #69)What is garbage collection in C#?**
+
+**Answer:**
+Garbage collection is the process of freeing up memory that is captured by unwanted objects. When you create a class object, automatically some memory space is allocated to the object in the heap memory. Now, after you perform all the actions on the object, the memory space occupied by the object becomes waste. It is necessary to free up memory. Garbage collection happens in three cases:
+
+
+If the occupied memory by the objects exceeds the pre-set threshold value.
+
+If the garbage collection method is called
+
+If your system has low physical memory
+
+
+**Q #70) What is a managed and unmanaged code?**
+
+**Answer:**
+Managed code lets you run the code on a managed CLR runtime environment in the .NET framework. 
+
+Managed code runs on the managed runtime environment than the operating system itself. 
+
+Benefits: Provides various services like a garbage collector, exception handling, etc. 
+
+
+Unmanaged code is when the code doesn’t run on CLR, it is an unmanaged code that works outside the .NET framework. 
+
+They don’t provide services of the high-level languages and therefore, run without them. Such an example is C++. 
+
