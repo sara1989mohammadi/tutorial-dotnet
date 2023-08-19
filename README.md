@@ -1,5 +1,4 @@
 # tutorial-dotnet
-# tutorial-dotnet
 **Q #1) What is C#?**
 
 **Q #2) What is the latest version of C#?**
