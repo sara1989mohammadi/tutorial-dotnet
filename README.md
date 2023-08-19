@@ -142,6 +142,10 @@
 
 **Q #70) What is a managed and unmanaged code?**
 
+**Q #71)  Can multiple catch blocks be executed?**
+
+**Q #72) Define Constructors**
+
 ============================================================================
 **Q #1) What is C#?**
 
@@ -742,3 +746,14 @@ Unmanaged code is when the code doesn’t run on CLR, it is an unmanaged code th
 
 They don’t provide services of the high-level languages and therefore, run without them. Such an example is C++. 
 
+
+**Q #71)  Can multiple catch blocks be executed?**
+
+**Answer:**
+No, Multiple catch blocks of similar type can’t be executed. Once the proper catch code executed, the control is transferred to the finally block, and then the code that follows the finally block gets executed.
+
+
+**Q #72) Define Constructors**
+
+**Answer:**
+A constructor is a member function in a class that has the same name as its class. The constructor is automatically invoked whenever an object class is created. It constructs the values of data members while initializing the class.
