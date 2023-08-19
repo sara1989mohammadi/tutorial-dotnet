@@ -146,6 +146,7 @@
 
 **Q #72) Define Constructors**
 
+**Q #73) Can a private virtual method can be overridden?**
 ============================================================================
 **Q #1) What is C#?**
 
@@ -757,3 +758,8 @@ No, Multiple catch blocks of similar type can’t be executed. Once the proper c
 
 **Answer:**
 A constructor is a member function in a class that has the same name as its class. The constructor is automatically invoked whenever an object class is created. It constructs the values of data members while initializing the class.
+
+**Q #73) Can a private virtual method can be overridden?**
+
+**Answer:**
+No, because they are not accessible outside the class.
