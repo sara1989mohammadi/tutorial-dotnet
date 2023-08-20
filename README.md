@@ -158,7 +158,7 @@ DESCRIPTION
 
 ## Questions
 
-#### What is C#?**
+**Q #1) What is C#?**
 <details><summary><b>Answer</b></summary>
 <p>
 **Answer:** C# is a computer programming language. Microsoft developed C# in 2000 to provide a modern general-purpose programming language that can be used to develop all kinds of software targeting various platforms, including Windows, Web, and Mobile, using just one programming language. Today, C# is one of the most popular programming languages in the world. Millions of software developers use C# to build all kinds of software. 
@@ -169,8 +169,6 @@ C# supports concepts of classes and objects. Classes have members such as fields
 </p>
 </details>
 
-
-#### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 **Q #2) What is the latest version of C#?**
