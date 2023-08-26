@@ -1309,7 +1309,7 @@ Unlike a simple delegate, a multicast delegate in C# references multiple target 
 
 ---
 
-**Q #76)How would you explain the four fundamental concepts of object-oriented programming? **
+**Q #76)How would you explain the four fundamental concepts of object-oriented programming?**
 <details><summary><b>Answer</b></summary>
 <p>
 
