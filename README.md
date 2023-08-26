@@ -159,6 +159,8 @@ DESCRIPTION
 
 **Q #75)What is a multicast delegate in C#?**
 
+**Q #76)How would you explain the four fundamental concepts of object-oriented programming?**
+
 ## Questions
 
 **Q #1) What is C#?**
@@ -1301,6 +1303,31 @@ In C#, nullable types are used to represent an undefined value of an underlying 
 
 **Answer:**
 Unlike a simple delegate, a multicast delegate in C# references multiple target methods. When a multicast delegate is used, all the functions the delegate is pointing to are invoked. They’re implemented using the MulticastDelegate class, which is derived from the system.
+
+</p>
+</details>
+
+---
+
+**Q #76)How would you explain the four fundamental concepts of object-oriented programming? **
+<details><summary><b>Answer</b></summary>
+<p>
+
+**Answer:**
+
+The four fundamental concepts of object-oriented programming can be explained as follows:
+
+
+Encapsulation is the bundling of data, including the methods that operate on that data, into a single, private unit
+
+
+Polymorphism is the ability of a type to take on many forms using a single interface
+
+
+Abstraction is the concealment of unnecessary program details so that the user only sees the essential attributes
+
+
+Inheritance is the process where one class derives (or inherits) its attributes and methods from another
 
 </p>
 </details>
