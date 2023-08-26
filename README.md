@@ -153,8 +153,11 @@ DESCRIPTION
 
 **Q #72) Define Constructors**
 
-**Q #73) Can a private virtual method can be overridden?**
+**Q #73) Can a private virtual method be overridden?**
 
+**Q #74) When should nullable types be used in C#?**
+
+**Q #75)What is a multicast delegate in C#?**
 
 ## Questions
 
@@ -1274,3 +1277,32 @@ A constructor is a member function in a class that has the same name as its clas
 
 **Answer:**
 No, because they are not accessible outside the class.
+
+</p>
+</details>
+
+---
+
+**Q #74) When should nullable types be used in C#?**
+<details><summary><b>Answer</b></summary>
+<p>
+
+**Answer:**
+In C#, nullable types are used to represent an undefined value of an underlying type. It essentially means ‘no value’ and is generally used when no data is available for the field.
+
+</p>
+</details>
+
+---
+
+**Q #75)What is a multicast delegate in C#?**
+<details><summary><b>Answer</b></summary>
+<p>
+
+**Answer:**
+Unlike a simple delegate, a multicast delegate in C# references multiple target methods. When a multicast delegate is used, all the functions the delegate is pointing to are invoked. They’re implemented using the MulticastDelegate class, which is derived from the system.
+
+</p>
+</details>
+
+---
