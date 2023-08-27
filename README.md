@@ -161,6 +161,10 @@ DESCRIPTION
 
 **Q #76)How would you explain the four fundamental concepts of object-oriented programming?**
 
+**Q #77)Define Constructors.**
+
+**Q #78)What is an object pool in .NET?**
+
 ## Questions
 
 **Q #1) What is C#?**
@@ -1329,6 +1333,30 @@ Abstraction is the concealment of unnecessary program details so that the user o
 
 Inheritance is the process where one class derives (or inherits) its attributes and methods from another
 
+</p>
+</details>
+
+---
+
+
+**Q #77)Define Constructors.**
+<details><summary><b>Answer</b></summary>
+<p>
+
+**Answer:**
+A constructor is a member function with the same name as its class. The constructor is automatically invoked when an object is created. While the class is being initialized, it constructs all the values of data members.
+
+</p>
+</details>
+
+---
+
+**Q #78)What is an object pool in .NET?**
+<details><summary><b>Answer</b></summary>
+<p>
+
+**Answer:**
+A container that has objects that are ready to be used is known as an object pool. It helps in tracking the object that is currently in use and the total number of objects present in the pool. This brings down the need for creating and re-creating objects.
 </p>
 </details>
 
