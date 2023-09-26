@@ -1361,8 +1361,7 @@ Inheritance is the process where one class derives (or inherits) its attributes 
 A constructor is a member function with the same name as its class. The constructor is automatically invoked when an object is created. While the class is being initialized, it constructs all the values of data members.
 
 </p>
-</details>
-
+</details
 ---
 
 **Q #78)What is an object pool in .NET?**
@@ -1373,5 +1372,4 @@ A constructor is a member function with the same name as its class. The construc
 A container that has objects that are ready to be used is known as an object pool. It helps in tracking the object that is currently in use and the total number of objects present in the pool. This brings down the need for creating and re-creating objects.
 </p>
 </details>
-
 ---
